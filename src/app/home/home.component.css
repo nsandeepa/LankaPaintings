@@ -1,0 +1,63 @@
+.background {
+    background-color: aquamarine;
+}
+
+.category-box {
+    padding: 20px;
+}
+
+.category-box-content {
+    height: 250px;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.category-box-content:hover {
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+
+.category-box-middle-item {
+    height: 112px;
+}
+
+.category-box-1 {
+    background-image: url("https://mymodernmet.com/wp/wp-content/uploads/2019/05/wide-angle-landscape-photography-tutorial-mads-peter-iversen-2.jpg");
+}
+
+.category-box-2 {
+    background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
+}
+
+.category-box-3 {
+    background-image: url("https://static.photocdn.pt/images/articles/2017_1/iStock-545347988.jpg");
+}
+
+.offer-box {
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.offer-box-content {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s;
+    padding: 0px;
+}
+
+.offer-box-content:hover {
+    transform: scale(1.01);
+    transition: all 0.5s;
+}
+
+.offer-box-middle-item {
+    height: 50px;
+}
+
+.offer-box-1 {
+    background-image: url("../../assets/images/banner.png");
+}

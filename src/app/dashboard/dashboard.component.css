@@ -1,0 +1,27 @@
+/* Laptops: width grater than 1024 */
+.main-container {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(253, 251, 235);
+}
+
+/* nav.nav-primary {
+    background-color: #222222;
+}
+
+nav .nav-brand {
+    width: 18vw;
+    height: auto;
+}
+
+nav .nav-brand:hover {
+    background: #ebebeb1c;
+    cursor: pointer;
+} */
+.widthc {
+    width: 45vw;
+}
+
+.dropdown-manu-m {
+    margin: 10px;
+}

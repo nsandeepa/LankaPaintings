@@ -1,0 +1,163 @@
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="assets/images/LPLogo.png" width="200" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="lankaPaintingsNavBar">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="lankaPaintingsNavBar" class="navbar-menu">
+
+    <div class="navbar-start">
+
+      <a class="navbar-item">
+        Shop
+      </a>
+      
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Paintings
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Abstract Paintings
+          </a>
+          <a class="navbar-item">
+            Animal Paintings
+          </a>
+          <a class="navbar-item">
+              Cultural Paintings
+          </a>
+          <a class="navbar-item">
+              Landscape Paintings
+          </a>
+          <a class="navbar-item">
+              Modern Paintings
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Photography
+        </a>
+        
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Art Photography
+          </a>
+          <a class="navbar-item">
+            Landscape Photography
+          </a>
+          <a class="navbar-item">
+            Nature Photography
+          </a>
+          <a class="navbar-item">
+            People Photography
+          </a>
+          <a class="navbar-item">
+            Wildlife Photography
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Canvas Prints
+        </a>
+        
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Abstract Prints
+          </a>
+          <a class="navbar-item">
+            Animal Prints
+          </a>
+          <a class="navbar-item">
+            Cultural Prints
+          </a>
+          <a class="navbar-item">
+            Landscape Prints
+          </a>
+          <a class="navbar-item">
+            Modern Prints
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Sculpture
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Ornaments
+            </a>
+            <a class="navbar-item">
+              Statues & Figurines
+            </a>
+            <a class="navbar-item">
+              Wall Hangings
+            </a>
+          </div>
+        </div>
+
+    </div>
+    
+    <div class="navbar-end">
+
+      <div class="navbar-item dropdown is-hoverable">
+          <div class="dropdown-trigger">
+            <button class="button is-warning" aria-haspopup="true" aria-controls="dropdown-menu4">
+              <i class="fa fa-user" aria-hidden="true"></i> &nbsp; My Account
+            </button>
+          </div>
+          <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item">
+                  Wishlist
+                </a>
+                <a href="#" class="dropdown-item">
+                  Purchase History
+                </a>
+                <a href="#" class="dropdown-item">
+                  Settings
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="navbar-item dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button is-warning" aria-haspopup="true" aria-controls="dropdown-menu5">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; Shopping Cart
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu5" role="menu">
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                    <div class="table-container">
+                        <table class="table is-fullwidth is-hoverable">
+                          <tr><td>Items :</td><td>5</td></tr>
+                          <tr><td>Total</td><td>$375.25</td></tr>
+                        </table>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<div class="dashboard-content">
+  <router-outlet></router-outlet>
+</div>
