@@ -61,3 +61,13 @@
 .offer-box-1 {
     background-image: url("../../assets/images/banner.png");
 }
+
+.is-rounded-corner {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.is-borderless {
+    border: 0px;
+    padding: 5px;
+}
