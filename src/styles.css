@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Varela";
+    src: url("./assets/fonts/Varela.ttf");
+}
+
 .dashboard-content {
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.varela-font {
+    font-family: "Varela";
 }
